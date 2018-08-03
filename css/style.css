@@ -84,7 +84,26 @@ ul.submenu li{
 .toggle{
 	width: 100%;
 	padding: 10px 20px;
-	background: ##03a9f4;
+	background: #03a9f4;
 	text-align: right;
 	box-sizing: border-box;
+	color: #fff;
+	font-size: 30px;
+	content: ' \00A7';
+	display: none;
+}
+@media screen and (max-width: 768px) {
+	.toggle{
+		display: block;
+	}
+	.nav-item{
+		display:none;
+		text-align: center;
+	}
+	.dropdown-menu{
+		position: initial;
+	}
+	.resp{
+		display: block;
+	}
 }

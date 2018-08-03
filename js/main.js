@@ -3,6 +3,9 @@ $(document).ready(function(){
 		console.log("click");
 		navHandler($(this));
 	})
+	$(".menu-bar").click(function(){
+		$(".nav-item").toggleClass("resp");
+	})
 });
 
 
