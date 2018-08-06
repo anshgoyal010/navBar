@@ -1,4 +1,5 @@
 $(document).ready(function(){
+	setContentAfterNavbar();
 	
 	$(".menu-bar").click(function(){
 		$(".nav-item").toggleClass("resp");
@@ -6,7 +7,6 @@ $(document).ready(function(){
 	$(".nav-link,.dropdown-link,.sub-dropdown-link").click(function(){
 		navHandler($(this));
 	})
-
 
 	
 });
@@ -70,7 +70,10 @@ function navHandler(ele){
 	}
 };
 
-
+function setContentAfterNavbar(){
+	var htInPxl = $('.navbar').height();
+	$('.content').css('margin-top',htInPxl+'px');
+}
 
 	
 

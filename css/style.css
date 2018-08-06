@@ -151,9 +151,9 @@ ul.submenu li{
 	.navbar-nav{
 		padding: 0px;
 	}
-	.content{
+	/*.content{
 		margin-top: 54px !important ;
-	}
+	}*/
 	.sub-dropdown-menu{
 	position: initial !important;
     margin: 0 auto;
@@ -179,9 +179,9 @@ ul.submenu li{
 	left: 0px;
     top: 0px;
 }
-.content{
+/*.content{
 	margin-top: 42px;
-}
+}*/
 .test{
 	margin-top: 100px;
 }
